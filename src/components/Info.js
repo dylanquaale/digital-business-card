@@ -1,7 +1,8 @@
 import React from "react";
 import styles from "./Info.module.css";
 import ProfilePicture from "../assets/Profile_Picture.png";
-import EmailLogo from "../assets/Email-logo.png";
+import emailLogo from "../assets/Email-logo.png";
+import linkendinLogo from "../assets/LinkedIn-logo.png";
 
 export default function Info() {
   return (
@@ -24,15 +25,16 @@ export default function Info() {
             className={`${styles.links} ${styles.mr}`}
             href="mailto:tashasyarifah@outlook.com"
           >
-            <img className={styles.icons} src={EmailLogo} alt="Send an email" />{" "}
+            <img className={styles.icons} src={emailLogo} alt="" />
             Email
           </a>
           <a
             target="_blank"
             rel="noopener noreferrer"
-            className={styles.links}
+            className={`${styles.links} ${styles.linkedin}`}
             href="https://www.linkedin.com/in/tashasyarifah/"
           >
+            <img className={styles.icons} src={linkendinLogo} alt="" />
             LinkedIn
           </a>
         </div>
