@@ -1,0 +1,23 @@
+.about {
+  /* display: grid;
+  background-color: #f5f5f5;
+  text-align: left;
+  place-items: center; */
+  display: flex;
+  background-color: #f5f5f5;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  width: 300px;
+  padding: 0 25px 25px 25px;
+}
+
+.header {
+  margin: 0;
+  font-size: 20px;
+}
+
+.texts {
+  margin: 0;
+  font-size: 15px;
+}
