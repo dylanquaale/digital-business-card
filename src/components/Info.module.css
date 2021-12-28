@@ -54,8 +54,10 @@
   cursor: pointer;
 }
 
-.mr {
-  margin-right: 17px;
+.email:hover,
+.email:focus {
+  background-color: #949494;
+  color: #ffffff;
 }
 
 .icons {
@@ -67,4 +69,10 @@
 .linkedin {
   background-color: #297fe5;
   color: #ffffff;
+  margin-left: 17px;
+}
+
+.linkedin:hover,
+.linkedin:focus {
+  background-color: #1c559b;
 }

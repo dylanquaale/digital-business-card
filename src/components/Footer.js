@@ -2,7 +2,6 @@ import React from "react";
 import styles from "./Footer.module.css";
 import twitterLogo from "../assets/Twitter-logo.png";
 import githubLogo from "../assets/Github-logo.png";
-import codepenLogo from "../assets/Codepen-logo.png";
 
 export default function Footer() {
   return (
@@ -11,6 +10,7 @@ export default function Footer() {
         <a
           target="_blank"
           rel="noopener noreferrer"
+          className={styles.links}
           href="https://github.com/tashasyarifah"
         >
           <img
@@ -22,23 +22,13 @@ export default function Footer() {
         <a
           target="_blank"
           rel="noopener noreferrer"
+          className={styles.links}
           href="https://twitter.com/tashasyarifah_"
         >
           <img
             src={twitterLogo}
             alt="Click to open Tasha's Twitter"
             className={styles.socialIcons}
-          />
-        </a>
-        <a
-          target="_blank"
-          rel="noopener noreferrer"
-          href="https://twitter.com/tashasyarifah_"
-        >
-          <img
-            src={codepenLogo}
-            alt="Click to open Tasha's Twitter"
-            className={`${styles.socialIcons} ${styles.codepen}`}
           />
         </a>
       </div>

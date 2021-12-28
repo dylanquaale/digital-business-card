@@ -22,11 +22,10 @@ export default function Info() {
           <a
             target="_blank"
             rel="noopener noreferrer"
-            className={`${styles.links} ${styles.mr}`}
+            className={`${styles.links} ${styles.email}`}
             href="mailto:tashasyarifah@outlook.com"
           >
-            <img className={styles.icons} src={emailLogo} alt="" />
-            Email
+            <img className={styles.icons} src={emailLogo} alt="" /> Email
           </a>
           <a
             target="_blank"

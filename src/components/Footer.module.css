@@ -18,6 +18,7 @@
   width: 30px;
 }
 
-.codepen {
-  color: #918e9b;
+.socialIcons:hover,
+.socialIcons:focus {
+  background-color: #a496ce;
 }
