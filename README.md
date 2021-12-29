@@ -1,70 +1,17 @@
-# Getting Started with Create React App
+# What is the project?
+
+It's a project based on [Scrimba course](https://scrimba.com/learn/learnreact). This is a first solo project from module one. We are free to create it with our own way.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## The Problems and The Solutions
 
-In the project directory, you can run:
+I got hard time to maintain the icon between on cta button. The `email button` and `LinkedIn button` looks similar but it's not. The position between icons and texts are not align. Had try solutions out there yet, none of them work. By the time, this project deploy I'm gonna find the solution dan solved immediately.
 
-### `npm start`
+Another problem that I faced was icons for the footer. I used `png` file and it turn out it cannot changed the color. What I have was a black and white icon. When I try to change the color using `color` or `filter` in a css it didn't work.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The solution that I made was add some `:hover` and `:focus` to icons. So, every button and icons in this projects will change their colors when you hover to them. This is also important for the accessibility. I'm trying to make it inclusive as posibble so everyone can try it.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Lesson Learned
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+I gotta learn on how icon and text can work together. Considering about the accesibillity when people using screen reader. Also, get to know more about using an image file type such as `.svg`, `.png`, and others for projects. What are the distinguished between them. How the choose what kind of type file do you want to use.
