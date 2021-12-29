@@ -17,7 +17,7 @@ export default function Info() {
       <div className={styles.bio}>
         <h1 className={styles.name}>Tasha Syarifah</h1>
         <p className={styles.title}>Frontend Developer</p>
-        <p className={styles.small}>website</p>
+        <p className={styles.small}>(website coming soon)</p>
         <div className={styles.contacts}>
           <a
             target="_blank"
