@@ -14,4 +14,5 @@ The solution that I made was add some `:hover` and `:focus` to icons. So, every 
 
 ### Lesson Learned
 
-I gotta learn on how icon and text can work together. Considering about the accesibillity when people using screen reader. Also, get to know more about using an image file type such as `.svg`, `.png`, and others for projects. What are the distinguished between them. How the choose what kind of type file do you want to use.
+- How icon and text can work together (considering about the accesibillity when people using screen reader.)
+- Learn more about an image file type such as `.svg`, `.png`, and others. What are the distinguished between them. How and Why to choose what kind of image type file to use.
