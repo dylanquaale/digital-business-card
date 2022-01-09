@@ -2,4 +2,6 @@
   display: grid;
   place-items: center;
   text-align: center;
+  margin-top: 44px;
+  margin-bottom: 44px;
 }
